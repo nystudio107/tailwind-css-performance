@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  webpack:
+    build:
+      context: ./docker-config/node-dev-webpack
+      dockerfile: ./Dockerfile
+    env_file: &env
+      - ./.env
+    init: true
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./tsconfig.json:/var/www/project/tsconfig.json:cached
+      - ./buildchain:/var/www/project/buildchain:cached
+      - ./buildchain/node_modules:/var/www/project/buildchain/node_modules:delegated
+      - ./web/dist:/var/www/project/web/dist:delegated
+      - ./src:/var/www/project/src:cached
+      - ./web:/var/www/project/web:cached
