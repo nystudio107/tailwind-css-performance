@@ -2,6 +2,12 @@
 
 Small repo to demonstrate the slow building of Tailwind CSS using `webpack-dev-server` HMR & PostCSS.
 
+## Problem
+
+This is the Problem branch; you can find the [Solution branch here](https://github.com/nystudio107/tailwind-css-performance/tree/solution)
+
+This is written up in detail in the [Speeding Up Tailwind CSS Builds](https://nystudio107.com/blog/speeding-up-tailwind-css-builds) article.
+
 ## Errata
 
 Normally I would never check in a `.env` file into a GitHub repo, but in this case it makes the setup easier, and there are no actual secrets in it.
