@@ -1,5 +1,10 @@
 // Import our CSS
-import '../css/app.pcss';
+import '../css/tailwind-base.pcss';
+import '../css/app-base.pcss';
+import '../css/tailwind-components.pcss';
+import '../css/app-components.pcss';
+import '../css/tailwind-utilities.pcss';
+import '../css/app-utilities.pcss';
 
 import App from "../vue/App.vue";
 
