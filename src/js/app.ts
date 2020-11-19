@@ -1,6 +1,3 @@
-// Import our CSS
-import '../css/app.pcss';
-
 import App from "../vue/App.vue";
 
 // App main
