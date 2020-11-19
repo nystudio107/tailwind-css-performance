@@ -18,8 +18,9 @@ To replicate the issue:
 
 1. Have Docker installed: https://docs.docker.com/get-docker/
 2. Clone the repo via `git clone https://github.com/nystudio107/tailwind-css-performance.git`
-3. `cd` to the `tailwind-css-performance` directory, and type: `docker-compose up` (the first time building the Docker container will be slow)
-4. When you see `webpack_1  | ℹ ｢wdm｣: Compiled successfully.` in your terminal, the project is running
+3. Make sure you switch to the `problem-tailwind-2.x` branch
+4. `cd` to the `tailwind-css-performance` directory, and type: `docker-compose up` (the first time building the Docker container will be slow)
+5. When you see `webpack_1  | ℹ ｢wdm｣: Compiled successfully.` in your terminal, the project is running
 
 ## Testing
 
