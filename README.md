@@ -1,10 +1,10 @@
 # Tailwind CSS Performance
 
-Small repo to demonstrate the slow building of Tailwind CSS using `webpack-dev-server` HMR & PostCSS.
+Small repo to demonstrate the slow building of Tailwind CSS 2.0 using `webpack-dev-server` HMR & PostCSS.
 
-## Problem
+## Problem - Tailwind 2.x
 
-This is the Problem branch; you can find the [Solution branch here](https://github.com/nystudio107/tailwind-css-performance/tree/solution)
+This is the Problem - Tailwind 2.x branch; you can find the [Solution - Tailwind 1.x branch here](https://github.com/nystudio107/tailwind-css-performance/tree/solution)
 
 This is written up in detail in the [Speeding Up Tailwind CSS Builds](https://nystudio107.com/blog/speeding-up-tailwind-css-builds) article.
 
