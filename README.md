@@ -4,7 +4,7 @@ Small repo to demonstrate the slow building of Tailwind CSS 2.0 using `webpack-d
 
 ## Problem - Tailwind 2.x
 
-This is the Problem - Tailwind 2.x branch; you can find the [Solution - Tailwind 1.x branch here](https://github.com/nystudio107/tailwind-css-performance/tree/solution)
+This is the Problem - Tailwind 2.x branch; you can find the [Solution - Tailwind 1.x branch here](https://github.com/nystudio107/tailwind-css-performance/tree/solution) which is a solution for Tailwind CSS 1.x, but it breaks in Tailwind CSS 2.x
 
 This is written up in detail in the [Speeding Up Tailwind CSS Builds](https://nystudio107.com/blog/speeding-up-tailwind-css-builds) article.
 
@@ -70,6 +70,4 @@ log.js:24 [HMR] App is up to date.
 
 ## Excpected Outcome
 
-As discussed in [Tailwind CSS issue #2544](https://github.com/tailwindlabs/tailwindcss/issues/2544), I'm hoping there can be some intelligent caching or preflighting for long-running processes such as `webpack-dev-server`.
-
-Have any instrumentation or profiling been hooked up to the build to determine where the bottlenecks are?
+As discussed in [Tailwind CSS issue #2820](https://github.com/tailwindlabs/tailwindcss/issues/2820), I'm hoping there's a way to restore the performance gains from being able to split the CSS out into separate chunks as described in the [Speeding Up Tailwind CSS Builds](https://nystudio107.com/blog/speeding-up-tailwind-css-builds) article.
