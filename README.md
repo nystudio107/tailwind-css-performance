@@ -2,9 +2,9 @@
 
 Small repo to demonstrate the slow building of Tailwind CSS 2.0 using `webpack-dev-server` HMR & PostCSS.
 
-## Broken - Tailwind 2.x
+## Works - Tailwind 1.x
 
-This is the Broken - Tailwind 2.x branch; you can find the [Solution - Tailwind 1.x branch here](https://github.com/nystudio107/tailwind-css-performance/tree/solution) which is a solution for Tailwind CSS 1.x, but it breaks in Tailwind CSS 2.x
+This is the Works - Tailwind 1.x branch; you can find the [Solution - Tailwind 1.x branch here](https://github.com/nystudio107/tailwind-css-performance/tree/solution) which is a solution for Tailwind CSS 1.x, but it breaks in Tailwind CSS 2.x
 
 This is written up in detail in the [Speeding Up Tailwind CSS Builds](https://nystudio107.com/blog/speeding-up-tailwind-css-builds) article.
 
@@ -18,7 +18,7 @@ To replicate the issue:
 
 1. Have Docker installed: https://docs.docker.com/get-docker/
 2. Clone the repo via `git clone https://github.com/nystudio107/tailwind-css-performance.git`
-3. Make sure you switch to the `broken-tailwind-2.x` branch
+3. Make sure you switch to the `works-tailwind-1.x` branch
 4. `cd` to the `tailwind-css-performance` directory, and type: `docker-compose up` (the first time building the Docker container will be slow)
 5. When you see `webpack_1  | ℹ ｢wdm｣: Compiled successfully.` in your terminal, the project is running
 
