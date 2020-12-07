@@ -13,8 +13,6 @@ module.exports = modernWebpackConfigs(
     'dev-server',
     'manifest',
     'babel-loader',
-    'image-loader',
-    'font-loader',
     'postcss-loader',
     'typescript-loader',
     'vue-loader',
